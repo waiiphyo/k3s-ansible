@@ -29,7 +29,7 @@ If needed, you can also edit `group_vars/all.yml` to match your environment.
 
 ## Useful commands
 
-**check connection
+**check connection**
 ```bash
 ansible -m ping all
 ```
@@ -39,7 +39,7 @@ ansible -m ping all
 ansible-playbook -v --syntax-check site.yaml
 ```
 
-**Start provisioning of the cluster using the following command:
+**Start provisioning of the cluster using the following command**
 
 ```bash
 ansible-playbook site.yml
