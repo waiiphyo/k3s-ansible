@@ -1,0 +1,10 @@
+[master]
+master_node
+
+[node]
+node01
+node02
+
+[k3s_cluster:children]
+master
+node

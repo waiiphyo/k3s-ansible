@@ -1,0 +1,7 @@
+---
+k3s_version: v1.27.4+k3s1
+ansible_user: root
+systemd_dir: /etc/systemd/system
+master_ip: masteip
+extra_server_args: ""
+extra_agent_args: ""
